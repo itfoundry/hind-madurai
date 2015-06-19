@@ -35,7 +35,7 @@ builder.set_options([
 
     'makeinstances', #!
     'checkoutlines', #!
-    'autohint',      #!
+    # 'autohint',      #!
 
     'do_style_linking',
     'use_os_2_version_4',
