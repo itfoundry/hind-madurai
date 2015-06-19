@@ -6,9 +6,9 @@ designerURL = "~";
 familyName = "Hind Tamil";
 fontMaster = (
 {
-ascender = 750;
-capHeight = 700;
-descender = -250;
+ascender = 707;
+capHeight = 674;
+descender = -200;
 guideLines = (
 {
 position = "{672, 543}";
@@ -20,12 +20,12 @@ position = "{221, 806}";
 id = "6F630D7F-7020-4486-9CFC-27593AFA8D59";
 weight = Light;
 weightValue = 0;
-xHeight = 500;
+xHeight = 507;
 },
 {
-ascender = 750;
-capHeight = 700;
-descender = -250;
+ascender = 707;
+capHeight = 674;
+descender = -187;
 guideLines = (
 {
 position = "{116, 576}";
@@ -47,7 +47,7 @@ position = "{1626, 464}";
 );
 id = "735A10A0-1C89-4F20-94DD-E36FD3A2EB2F";
 weight = Bold;
-xHeight = 500;
+xHeight = 507;
 }
 );
 glyphs = (
