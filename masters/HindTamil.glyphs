@@ -10800,8 +10800,8 @@ name = tmMA;
 }
 );
 layerId = "735A10A0-1C89-4F20-94DD-E36FD3A2EB2F";
-leftMetricsKey = tmMa;
-rightMetricsKey = tmMa;
+leftMetricsKey = "=tmMa";
+rightMetricsKey = "=tmMa";
 name = Bold;
 paths = (
 {
@@ -22039,7 +22039,7 @@ name = tmU;
 }
 );
 layerId = "735A10A0-1C89-4F20-94DD-E36FD3A2EB2F";
-leftMetricsKey = tmU;
+leftMetricsKey = "=tmU";
 name = Bold;
 paths = (
 {
@@ -32658,7 +32658,7 @@ leftMetricsKey = tmCA;
 },
 {
 glyphname = tmCU;
-lastChange = "2015-04-30 12:37:35 +0000";
+lastChange = "2015-07-03 07:44:47 +0000";
 layers = (
 {
 layerId = "6F630D7F-7020-4486-9CFC-27593AFA8D59";
@@ -32753,10 +32753,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"613 0 LINE",
 "754 0 LINE",
 "754 255 LINE",
-"613 255 LINE"
+"613 255 LINE",
+"613 0 LINE"
 );
 }
 );
@@ -33145,7 +33145,7 @@ name = tmHA;
 }
 );
 layerId = "735A10A0-1C89-4F20-94DD-E36FD3A2EB2F";
-rightMetricsKey = tmmI;
+rightMetricsKey = "=tmmI";
 name = Bold;
 paths = (
 {
@@ -37591,7 +37591,7 @@ rightMetricsKey = tmLLLA;
 },
 {
 glyphname = tmLLU;
-lastChange = "2015-05-02 11:21:56 +0000";
+lastChange = "2015-07-03 07:45:13 +0000";
 layers = (
 {
 components = (
@@ -37612,19 +37612,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"451 -230 OFFCURVE",
-"137 -88 OFFCURVE",
-"137 228 CURVE SMOOTH",
-"137 344 OFFCURVE",
-"169 441 OFFCURVE",
-"244 543 CURVE",
-"177 543 LINE",
-"127 472 OFFCURVE",
-"75 361 OFFCURVE",
-"75 228 CURVE SMOOTH",
-"75 -127 OFFCURVE",
-"404 -285 OFFCURVE",
-"820 -285 CURVE",
 "1220 -285 OFFCURVE",
 "1522 -128 OFFCURVE",
 "1522 151 CURVE SMOOTH",
@@ -37643,7 +37630,20 @@ nodes = (
 "1460 152 CURVE SMOOTH",
 "1460 -99 OFFCURVE",
 "1191 -230 OFFCURVE",
-"821 -230 CURVE"
+"821 -230 CURVE",
+"451 -230 OFFCURVE",
+"137 -88 OFFCURVE",
+"137 228 CURVE SMOOTH",
+"137 344 OFFCURVE",
+"169 441 OFFCURVE",
+"244 543 CURVE",
+"177 543 LINE",
+"127 472 OFFCURVE",
+"75 361 OFFCURVE",
+"75 228 CURVE SMOOTH",
+"75 -127 OFFCURVE",
+"404 -285 OFFCURVE",
+"820 -285 CURVE"
 );
 }
 );
@@ -37663,6 +37663,9 @@ paths = (
 {
 closed = 1;
 nodes = (
+"1237 -298 OFFCURVE",
+"1559 -135 OFFCURVE",
+"1559 150 CURVE",
 "1559 271 OFFCURVE",
 "1489 374 OFFCURVE",
 "1380 374 CURVE SMOOTH",
@@ -37691,10 +37694,7 @@ nodes = (
 "60 223 CURVE SMOOTH",
 "60 -152 OFFCURVE",
 "417 -298 OFFCURVE",
-"836 -298 CURVE",
-"1237 -298 OFFCURVE",
-"1559 -135 OFFCURVE",
-"1559 150 CURVE"
+"836 -298 CURVE"
 );
 }
 );
@@ -39095,7 +39095,7 @@ leftMetricsKey = tmNGA;
 },
 {
 glyphname = tmNGU;
-lastChange = "2015-06-17 11:12:25 +0000";
+lastChange = "2015-07-03 07:44:17 +0000";
 layers = (
 {
 components = (
@@ -39130,10 +39130,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"877 -142 LINE",
 "1018 -142 LINE",
 "1018 61 LINE",
-"877 61 LINE"
+"877 61 LINE",
+"877 -142 LINE"
 );
 }
 );
@@ -39146,7 +39146,7 @@ rightMetricsKey = tmNGA;
 {
 color = 3;
 glyphname = tmNGUU;
-lastChange = "2015-06-17 11:12:59 +0000";
+lastChange = "2015-07-03 07:45:28 +0000";
 layers = (
 {
 components = (
@@ -39244,10 +39244,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"876 -92 LINE",
 "1017 -92 LINE",
 "1017 111 LINE",
-"876 111 LINE"
+"876 111 LINE",
+"876 -92 LINE"
 );
 }
 );
@@ -43165,7 +43165,7 @@ leftMetricsKey = tmPA;
 },
 {
 glyphname = tmPU;
-lastChange = "2015-05-01 12:45:47 +0000";
+lastChange = "2015-07-03 07:45:45 +0000";
 layers = (
 {
 components = (
@@ -43200,10 +43200,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"649 -142 LINE",
 "790 -142 LINE",
 "790 61 LINE",
-"649 61 LINE"
+"649 61 LINE",
+"649 -142 LINE"
 );
 }
 );
@@ -43216,7 +43216,7 @@ rightMetricsKey = tmPA;
 {
 color = 3;
 glyphname = tmPUU;
-lastChange = "2015-05-06 07:52:50 +0000";
+lastChange = "2015-07-03 07:45:49 +0000";
 layers = (
 {
 background = {
@@ -43343,10 +43343,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"649 -142 LINE",
 "790 -142 LINE",
 "790 61 LINE",
-"649 61 LINE"
+"649 61 LINE",
+"649 -142 LINE"
 );
 },
 {
@@ -43539,7 +43539,7 @@ nodes = (
 );
 };
 layerId = "735A10A0-1C89-4F20-94DD-E36FD3A2EB2F";
-rightMetricsKey = tmmI;
+rightMetricsKey = "=tmmI";
 name = Bold;
 paths = (
 {
@@ -50219,7 +50219,7 @@ leftMetricsKey = tmVA;
 },
 {
 glyphname = tmVU;
-lastChange = "2015-04-30 18:03:50 +0000";
+lastChange = "2015-07-03 07:46:00 +0000";
 layers = (
 {
 components = (
@@ -50254,10 +50254,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"834 -142 LINE",
 "975 -142 LINE",
 "975 61 LINE",
-"834 61 LINE"
+"834 61 LINE",
+"834 -142 LINE"
 );
 }
 );
@@ -50882,7 +50882,7 @@ leftMetricsKey = tmYA;
 },
 {
 glyphname = tmYU;
-lastChange = "2015-05-01 12:53:43 +0000";
+lastChange = "2015-07-03 07:46:15 +0000";
 layers = (
 {
 components = (
@@ -50917,10 +50917,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"802 -142 LINE",
 "943 -142 LINE",
 "943 61 LINE",
-"802 61 LINE"
+"802 61 LINE",
+"802 -142 LINE"
 );
 }
 );
@@ -50933,7 +50933,7 @@ rightMetricsKey = tmYA;
 {
 color = 3;
 glyphname = tmYUU;
-lastChange = "2015-05-06 07:52:56 +0000";
+lastChange = "2015-07-03 07:46:18 +0000";
 layers = (
 {
 background = {
@@ -51085,10 +51085,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"802 -142 LINE",
 "943 -142 LINE",
 "943 61 LINE",
-"802 61 LINE"
+"802 61 LINE",
+"802 -142 LINE"
 );
 },
 {
@@ -52976,8 +52976,8 @@ nodes = (
 );
 };
 layerId = "6F630D7F-7020-4486-9CFC-27593AFA8D59";
-leftMetricsKey = tmKA;
-rightMetricsKey = tmSSA;
+leftMetricsKey = "=tmKA";
+rightMetricsKey = "=tmSSA";
 name = Light;
 paths = (
 {
