@@ -15,9 +15,9 @@ table OS/2 {
   FSType 0;
   Panose 2 0 0 0 0 0 0 0 0 0;
   UnicodeRange
-    # 0   # Basic Latin
-    # 1   # Latin-1 Supplement
-    # 2   # Latin Extended-A
+    0   # Basic Latin
+    1   # Latin-1 Supplement
+    2   # Latin Extended-A
     # 15  # Devanagari 0900-097F
     # 16  # Bengali 0980-09FF
     # 17  # Gurmukhi 0A00-0A7F
