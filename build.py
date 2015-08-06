@@ -6,8 +6,9 @@ kit.confirm_version('0.1.1')
 # - - -
 
 family = kit.Family(
-    trademark = 'Hind',
-    script    = 'Tamil',
+    trademark = 'Hind Madurai',
+    script = 'Tamil',
+    hide_script_name = True,
 )
 
 family.set_masters(
@@ -25,7 +26,7 @@ family.set_styles()
 
 builder = kit.Builder(family)
 
-builder.fontrevision = '0.600'
+builder.fontrevision = '0.700'
 
 builder.set_options([
 
