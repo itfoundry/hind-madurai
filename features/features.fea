@@ -123,40 +123,35 @@ feature abvm {
 # GENERAL FEATURES
 # ----------------
 
-# Stylistic Sets
-# --------------
-# For InDesign.
+# Stylistic Alternates
+# --------------------
+
+# For Photoshop and Illustrator
+
+feature salt {
+  lookup salt;
+  lookup salt_contextual;
+} salt;
+
+# For InDesign (InDesign doesn't support <salt>)
 
 feature ss01 {
-
-  featureNames {
-    name   "Traditional Orthography";
-    name 1 "Traditional Orthography"; # Obsolete
-  };
-
-  lookup ss01;
-
-} ss01;
-
-feature ss02 {
-
   featureNames {
     name   "Alternative RA";
     name 1 "Alternative RA"; # Obsolete
   };
-
-  lookup ss02_A;
-  lookup ss02_B;
-
-} ss02;
+  lookup salt;
+  lookup salt_contextual;
+} ss01;
 
 
-# Stylistic Alternates
-# --------------------
-# For Photoshop and Illustrator.
+# Discretionary and Historical Ligatures
+# --------------------------------------
 
-feature salt {
-  lookup ss01;
-  lookup ss02_A;
-  lookup ss02_B;
-} salt;
+feature dlig {
+  lookup dlig;
+} dlig;
+
+feature hlig {
+  lookup dlig;
+} hlig;

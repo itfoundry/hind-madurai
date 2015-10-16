@@ -137,11 +137,16 @@ lookup psts {
 # GENERAL FEATURES
 # ----------------
 
-# Stylistic Sets
-# --------------
-# For InDesign.
+lookup salt {
+  sub tmRI  by tmRI.alt;
+  sub tmRII by tmRII.alt;
+} salt;
 
-lookup ss01 {
+lookup salt_contextual {
+  sub tmRA' tmVirama by tmRA.alt;
+} salt_contextual;
+
+lookup dlig {
 
   sub tmNNA  tmmAA by  tmNNAA.traditional;
   sub tmRRA  tmmAA by  tmRRAA.traditional;
@@ -152,13 +157,4 @@ lookup ss01 {
   sub tmmAI tmLLA  by  tmLLAI.traditional;
   sub tmmAI tmNNNA by tmNNNAI.traditional;
 
-} ss01;
-
-lookup ss02_A {
-  sub tmRA' tmVirama by tmRA.alt;
-} ss02_A;
-
-lookup ss02_B {
-  sub tmRI  by tmRI.alt;
-  sub tmRII by tmRII.alt;
-} ss02_B;
+} dlig;
