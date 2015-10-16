@@ -19,71 +19,25 @@ feature akhn {
 } akhn;
 
 
-# Half Forms
-# ----------
-
-# feature half {
-# } half;
-
-
 # ----------------------------
 # MANDATORY PRESENTATION FORMS
 # ----------------------------
 
-# Pre-base Substitution
-# ---------------------
+# Pre-, Above-, Below-, and Post-base Substitution
+# --------------------------------------------
 
 # feature pres {
 # } pres;
 
-
-# Above-base Substitution
-# -----------------------
-
 # feature abvs {
 # } abvs;
-
-
-# Below-base Substitution
-# -----------------------
 
 # feature blws {
 # } blws;
 
-
-# Post-base Substitution
-# ----------------------
-
 feature psts {
-  lookup psts_shrii;
   lookup psts;
 } psts;
-
-
-# Halant Forms
-# ------------
-
-# feature haln {
-# } haln;
-
-
-# Required Contextual Alternates
-# ------------------------------
-# Newly proposed. Only implemented by Core Text.
-
-# feature rclt {
-# } rclt;
-
-
-# --------------------------------
-# DISCRETIONARY PRESENTATION FORMS
-# --------------------------------
-
-# Contextual Alternates
-# ---------------------
-
-# feature calt {
-# } calt;
 
 
 # -----------
@@ -96,13 +50,6 @@ feature psts {
 # feature kern {
 #   include (kern.fea);
 # } kern;
-
-
-# Distances
-# ---------
-
-# feature dist {
-# } dist;
 
 
 # Above- and Below-base Mark Positioning

@@ -6,7 +6,16 @@
 # ----------------
 
 lookup akhn {
+
   sub tmKA tmVirama tmSSA by tmKSSA;
+
+  # <SA Virama RA mII> is the legacy sequence.
+
+  # Because Adobe's <taml> engine executes <haln> before <pres>~<psts>,
+  #   `sub [tmSH tmS] tmRA tmmII by tmSHRII;` must present if <haln> is used and SHRII is formed no ealier than <pres>.
+
+  sub [tmSHA tmSA] tmVirama tmRA tmmII by tmSHRII;
+
 } akhn;
 
 
@@ -16,17 +25,6 @@ lookup akhn {
 
 # Post-base Substitution
 # ----------------------
-
-lookup psts_shrii {
-
-  # <SA Virama RA mII> is the legacy sequence.
-
-  # Because Adobe's <taml> engine executes <haln> before <pres>~<psts>,
-  #   `sub [tmSH tmS] tmRA tmmII by tmSHRII;` must present if <haln> is used.
-
-  sub [tmSHA tmSA] tmVirama tmRA tmmII by tmSHRII;
-
-} psts_shrii;
 
 lookup psts {
 
